@@ -14,4 +14,4 @@
 #### - Frontend: ReactJS
 #### - Backend: NodeJS + ExpressJS
 #### - Database: MongoDB
-#### - Styling: React Boostrap
+#### - Styling: React Bootstrap
