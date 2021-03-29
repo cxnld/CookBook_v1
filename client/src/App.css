@@ -1,0 +1,14 @@
+.App {
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+}
+
+.Content {
+    height: 93%;
+    background-color: #dadada;
+}
+
+.navb {
+    height: 7%;
+}

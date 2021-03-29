@@ -1,0 +1,100 @@
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.loginContainer {
+    height: auto;
+    width: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+.loginContainer h1{
+    margin-bottom: 25px
+}
+
+.recipeGrid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 93%;
+    width: 100%;
+    padding: 30px;
+    overflow: auto;
+}
+
+.recipeCard {
+    height: 336px;
+    width: 320px;
+    margin: 10px;
+    box-shadow: 5px 10px 20px 1px;
+    overflow: hidden;
+}
+
+.recipeCard .image {
+    height: 200px;
+    width: 100%;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 7%;
+    width: 100%;
+    padding: 20px;
+}
+
+.formContainer {
+    height: auto;
+    max-height: 90%;
+    width: 500px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    overflow: auto;
+}
+
+.recipeContainer {
+    height: 95%;
+    width: 80%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    overflow: auto;
+}
+
+.recipeContainer .image {
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+    
+    margin-bottom: 25px;
+    border-radius: 10px;
+}
+
+
+
+
+::-webkit-scrollbar {
+width: 10px;
+}
+
+::-webkit-scrollbar-track {
+background: #f1f1f1; 
+}
+
+::-webkit-scrollbar-thumb {
+background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+background: #555; 
+}
